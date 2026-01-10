@@ -3,13 +3,15 @@
     "id": "5aad06c9-bc27-4be3-8b37-5102754195f1",
     "category": "Dropdowns",
     "name": "Some Dropdown",
-    "path": "components/dropdowns/some-dropdown.html"
+    "path": "components/dropdowns/some-dropdown.html",
+    "is_full": false
   },
   {
     "id": "d00482cd-526b-4d35-b5f8-4e101827b7b7",
     "category": "Dropdowns",
     "name": "Other Dropdown",
-    "path": "components/dropdowns/other-dropdown.html"
+    "path": "components/dropdowns/other-dropdown.html",
+    "is_full": false
   },
   {
     "id": "810e1094-5d30-4d4f-8921-db3407c8f98c",
@@ -28,5 +30,33 @@
     "category": "Dropdowns",
     "name": "Organizations Dropdown",
     "path": "components/dropdowns/organizations-dropdown.html"
+  },
+  {
+    "id": "6e64699d-f807-4aeb-adf2-fb4f84623665",
+    "category": "Auth",
+    "name": "Simple Login Form",
+    "path": "components/auth/simple-login-form.html",
+    "is_full": true
+  },
+  {
+    "id": "6e83d9bc-8ac5-4083-9126-8927b9631fa2",
+    "category": "Auth",
+    "name": "Simple Registration Form",
+    "path": "components/auth/simple-registration-form.html",
+    "is_full": true
+  },
+  {
+    "id": "edbb20f6-9c4e-42a6-8554-561114ea86ec",
+    "category": "Auth",
+    "name": "Alternative Login Form",
+    "path": "components/auth/alternative-login-form.html",
+    "is_full": true
+  },
+  {
+    "id": "9c33a3a2-ba05-49ee-8d80-32ef56ab1c7d",
+    "category": "Auth",
+    "name": "Alternative Registration Form",
+    "path": "components/auth/alternative-registration-form.html",
+    "is_full": true
   }
 ]

@@ -23,6 +23,8 @@ $categories = [];
 foreach ($components as $c) {
     $categories[$c['category']][] = $c;
 }
+
+$isFullWidth = isset($activeComponent['is_full']) && $activeComponent['is_full'] === true;
 ?>
 <!doctype html>
 <html lang="en">
@@ -94,8 +96,8 @@ foreach ($components as $c) {
                             <div class="h-1 w-1 bg-indigo-500 rounded-full"></div>
                             <h3 class="text-xs font-bold uppercase tracking-tighter text-slate-500">Live Preview</h3>
                         </div>
-                        <div class="bg-dots border border-slate-200 rounded-2xl p-12 flex justify-center items-center min-h-[300px]">
-                        <?= $componentHtml ?>
+                        <div class="border border-slate-200 rounded-2xl overflow-hidden min-h-[300px] <?= $isFullWidth ? 'bg-white' : 'bg-dots p-12 flex justify-center items-center' ?>">
+                            <?= $componentHtml ?>
                         </div>
                     </section>
 
