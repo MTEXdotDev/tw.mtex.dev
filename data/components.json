@@ -1,0 +1,14 @@
+[
+  {
+    "id": "5aad06c9-bc27-4be3-8b37-5102754195f1",
+    "category": "Dropdowns",
+    "name": "Some Dropdown",
+    "path": "components/dropdowns/some-dropdown.html"
+  },
+  {
+    "id": "d00482cd-526b-4d35-b5f8-4e101827b7b7",
+    "category": "Dropdowns",
+    "name": "Other Dropdown",
+    "path": "components/dropdowns/other-dropdown.html"
+  }
+]
