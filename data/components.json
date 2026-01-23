@@ -17,19 +17,36 @@
     "id": "810e1094-5d30-4d4f-8921-db3407c8f98c",
     "category": "Dropdowns",
     "name": "Actions Dropdown",
-    "path": "components/dropdowns/actions-dropdown.html"
+    "path": "components/dropdowns/actions-dropdown.html",
+    "is_full": false
   },
   {
     "id": "66557385-e525-402e-a3e4-d3caeebbd227",
     "category": "Dropdowns",
     "name": "Status Dropdown",
-    "path": "components/dropdowns/status-dropdown.html"
+    "path": "components/dropdowns/status-dropdown.html",
+    "is_full": false
   },
   {
     "id": "fdd532a9-b851-45f0-80df-eb0c2eb0d902",
     "category": "Dropdowns",
     "name": "Organizations Dropdown",
-    "path": "components/dropdowns/organizations-dropdown.html"
+    "path": "components/dropdowns/organizations-dropdown.html",
+    "is_full": false
+  },
+  {
+    "id": "14f8a26b-28f0-4d62-921d-9e6b54130093",
+    "category": "Dropdowns",
+    "name": "Simple Profile Dropdown",
+    "path": "components/dropdowns/simple-profile-dropdown.html",
+    "is_full": false
+  },
+  {
+    "id": "b3c5a6d7-e8f9-4a1b-bc2d-3e4f5a6b7c8d",
+    "category": "Dropdowns",
+    "name": "Glass User Menu",
+    "path": "components/dropdowns/glass-user-menu.html",
+    "is_full": false
   },
   {
     "id": "6e64699d-f807-4aeb-adf2-fb4f84623665",
