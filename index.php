@@ -178,6 +178,18 @@ $isFullWidth = isset($activeComponent['is_full']) && $activeComponent['is_full']
         </div>
 
         <div class="flex items-center gap-6">
+          <a href="https://github.com/mtexdotdev/tw.mtex.dev" target="_blank" class="group flex flex-col">
+            <span class="text-[10px] uppercase tracking-wider text-slate-400 transition-colors group-hover:text-primary-500">
+              Source
+            </span>
+            <span class="text-xs font-medium text-slate-600 dark:text-slate-300">GitHub</span>
+          </a>
+          <a href="https://status.mtex.dev" target="_blank" class="group flex flex-col">
+            <span class="text-[10px] uppercase tracking-wider text-slate-400 transition-colors group-hover:text-primary-500">
+              System
+            </span>
+            <span class="text-xs font-medium text-slate-600 dark:text-slate-300">Status</span>
+          </a>
           <a href="https://fabianternis.dev" target="_blank" class="group flex flex-col">
             <span class="text-[10px] uppercase tracking-wider text-slate-400 transition-colors group-hover:text-primary-500">
               Webmaster
