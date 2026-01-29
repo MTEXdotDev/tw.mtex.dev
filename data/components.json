@@ -117,5 +117,29 @@
     "name": "Alternative Registration Form",
     "path": "components/auth/alternative-registration-form.html",
     "is_full": true
+  },
+
+
+
+  {
+    "id": "e0649c76-1d6b-466b-9938-c470860972bb",
+    "category": "miscellaneous",
+    "name": "Simple Theme Switcher",
+    "path": "components/miscellaneous/simple-theme-switcher.html",
+    "is_full": false
+  },
+  {
+    "id": "75a24245-d7f8-475c-bbef-20a205acdd1a",
+    "category": "miscellaneous",
+    "name": "Sliding Theme Selecotr",
+    "path": "components/miscellaneous/sliding-theme-selector.html",
+    "is_full": false
+  },
+  {
+    "id": "",
+    "category": "miscellaneous",
+    "name": "",
+    "path": "components/miscellaneous/",
+    "is_full": false
   }
 ]
