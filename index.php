@@ -196,11 +196,17 @@ $isFullWidth = isset($activeComponent['is_full']) && $activeComponent['is_full']
             </span>
             <span class="text-xs font-medium text-slate-600 dark:text-slate-300">fabianternis.dev</span>
           </a>
-          <a href="https://mtex.dev" target="_blank" class="group flex flex-col">
+          <a href="https://legal.mtex.dev" target="_blank" class="group flex flex-col">
+            <span class="text-[10px] uppercase tracking-wider text-slate-400 transition-colors group-hover:text-primary-500">
+              Legal
+            </span>
+            <span class="text-xs font-medium text-slate-600 dark:text-slate-300">Page</span>
+          </a>
+          <a href="https://legal.mtex.dev/imprint" target="_blank" class="group flex flex-col">
             <span class="text-[10px] uppercase tracking-wider text-slate-400 transition-colors group-hover:text-primary-500">
               Imprint
             </span>
-            <span class="text-xs font-medium text-slate-600 dark:text-slate-300">mtex.dev</span>
+            <span class="text-xs font-medium text-slate-600 dark:text-slate-300">legal.mtex.dev</span>
           </a>
         </div>
       </div>
