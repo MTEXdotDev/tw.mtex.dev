@@ -31,7 +31,30 @@ $isFullWidth = isset($activeComponent['is_full']) && $activeComponent['is_full']
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><?= $config['BRAND_NAME'] ?> // Component Library</title>
+    
+    <title><?= $config['BRAND_NAME'] ?> // TailwindCSS Component Library</title>
+    <meta name="title" content="<?= $config['BRAND_NAME'] ?> // Component Library">
+    <meta name="description" content="An internal ecosystem of high-quality, copy-paste TailwindCSS components designed for MTEX projects. Built for speed, consistency, and dark-mode excellence.">
+    <meta name="keywords" content="TailwindCSS, UI Kit, Component Library, MTEX, Web Development, PHP, Design System">
+    <meta name="author" content="MTEDdotDev">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tw.mtex.dev/">
+    <meta property="og:title" content="<?= $config['BRAND_NAME'] ?> // Component Library">
+    <meta property="og:description" content="Rapid UI development with the MTEX TailwindCSS component ecosystem.">
+    <meta property="og:image" content="https://github.com/MTEDdotDev.png">
+
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://tw.mtex.dev/">
+    <meta property="twitter:title" content="<?= $config['BRAND_NAME'] ?> // Component Library">
+    <meta property="twitter:description" content="Rapid UI development with the MTEX TailwindCSS component ecosystem.">
+    <meta property="twitter:image" content="https://github.com/MTEDdotDev.png">
+
+    <link rel="icon" type="image/x-icon" href="https://github.com/MTEDdotDev.png">
+    <link rel="apple-touch-icon" href="https://github.com/MTEDdotDev.png">
+    <meta name="theme-color" content="#020617">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -63,9 +86,22 @@ $isFullWidth = isset($activeComponent['is_full']) && $activeComponent['is_full']
     <style>
       .bg-dots { background-image: radial-gradient(#e5e7eb 1px, transparent 1px); background-size: 20px 20px; }
       .dark .bg-dots { background-image: radial-gradient(#334155 1px, transparent 1px); }
+      
       .sidebar-scroll::-webkit-scrollbar { width: 4px; }
       .sidebar-scroll::-webkit-scrollbar-track { background: transparent; }
       .sidebar-scroll::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 20px; }
+      .dark .sidebar-scroll::-webkit-scrollbar-thumb { background-color: #1e293b; }
+
+      ::-webkit-scrollbar { width: 10px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      ::-webkit-scrollbar-thumb { 
+        background-color: #e2e8f0; 
+        border-radius: 10px; 
+        border: 3px solid transparent; 
+        background-clip: content-box; 
+      }
+      .dark ::-webkit-scrollbar-thumb { background-color: #1e293b; }
+      ::-webkit-scrollbar-thumb:hover { background-color: #94a3b8; }
     </style>
   </head>
   <body class="bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen flex flex-col transition-colors duration-300">
