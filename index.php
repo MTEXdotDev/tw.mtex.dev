@@ -36,22 +36,22 @@ $isFullWidth = isset($activeComponent['is_full']) && $activeComponent['is_full']
     <meta name="title" content="<?= $config['BRAND_NAME'] ?> // Component Library">
     <meta name="description" content="An internal ecosystem of high-quality, copy-paste TailwindCSS components designed for MTEX projects. Built for speed, consistency, and dark-mode excellence.">
     <meta name="keywords" content="TailwindCSS, UI Kit, Component Library, MTEX, Web Development, PHP, Design System">
-    <meta name="author" content="MTEDdotDev">
+    <meta name="author" content="MTEXdotDev">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tw.mtex.dev/">
     <meta property="og:title" content="<?= $config['BRAND_NAME'] ?> // Component Library">
     <meta property="og:description" content="Rapid UI development with the MTEX TailwindCSS component ecosystem.">
-    <meta property="og:image" content="https://github.com/MTEDdotDev.png">
+    <meta property="og:image" content="https://github.com/MTEXdotDev.png">
 
     <meta property="twitter:card" content="summary">
     <meta property="twitter:url" content="https://tw.mtex.dev/">
     <meta property="twitter:title" content="<?= $config['BRAND_NAME'] ?> // Component Library">
     <meta property="twitter:description" content="Rapid UI development with the MTEX TailwindCSS component ecosystem.">
-    <meta property="twitter:image" content="https://github.com/MTEDdotDev.png">
+    <meta property="twitter:image" content="https://github.com/MTEXdotDev.png">
 
-    <link rel="icon" type="image/x-icon" href="https://github.com/MTEDdotDev.png">
-    <link rel="apple-touch-icon" href="https://github.com/MTEDdotDev.png">
+    <link rel="icon" type="image/x-icon" href="https://github.com/MTEXdotDev.png">
+    <link rel="apple-touch-icon" href="https://github.com/MTEXdotDev.png">
     <meta name="theme-color" content="#020617">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
