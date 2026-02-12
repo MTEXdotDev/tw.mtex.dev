@@ -141,5 +141,105 @@
     "name": "",
     "path": "components/miscellaneous/",
     "is_full": false
+  },
+
+  
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "category": "Dropdowns",
+    "name": "Notification Dropdown",
+    "path": "components/dropdowns/notification-dropdown.html",
+    "is_full": false
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+    "category": "Dropdowns",
+    "name": "Language Selector",
+    "path": "components/dropdowns/language-selector.html",
+    "is_full": false
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+    "category": "Dropdowns",
+    "name": "Card Menu Dropdown",
+    "path": "components/dropdowns/card-menu-dropdown.html",
+    "is_full": false
+  },
+  {
+    "id": "d4e5f6a7-b8c9-0123-def1-234567890123",
+    "category": "Data Display",
+    "name": "Metric Cards Grid",
+    "path": "components/data-display/metric-cards-grid.html",
+    "is_full": false
+  },
+  {
+    "id": "e5f6a7b8-c9d0-1234-ef12-345678901234",
+    "category": "Data Display",
+    "name": "Activity Feed",
+    "path": "components/data-display/activity-feed.html",
+    "is_full": false
+  },
+  {
+    "id": "f6a7b8c9-d0e1-2345-f123-456789012345",
+    "category": "Data Display",
+    "name": "Progress Indicators",
+    "path": "components/data-display/progress-indicators.html",
+    "is_full": false
+  },
+  {
+    "id": "a7b8c9d0-e1f2-3456-1234-567890123456",
+    "category": "Navigation",
+    "name": "Top Navigation",
+    "path": "components/navigation/top-navigation.html",
+    "is_full": false
+  },
+  {
+    "id": "b8c9d0e1-f2a3-4567-2345-678901234567",
+    "category": "Navigation",
+    "name": "Breadcrumbs",
+    "path": "components/navigation/breadcrumbs.html",
+    "is_full": false
+  },
+  {
+    "id": "c9d0e1f2-a3b4-5678-3456-789012345678",
+    "category": "Auth",
+    "name": "Forgot Password Form",
+    "path": "components/auth/forgot-password-form.html",
+    "is_full": true
+  },
+  {
+    "id": "d0e1f2a3-b4c5-6789-4567-890123456789",
+    "category": "Auth",
+    "name": "Reset Password Form",
+    "path": "components/auth/reset-password-form.html",
+    "is_full": true
+  },
+  {
+    "id": "e1f2a3b4-c5d6-7890-5678-901234567890",
+    "category": "Miscellaneous",
+    "name": "Toast Notifications",
+    "path": "components/miscellaneous/toast-notifications.html",
+    "is_full": false
+  },
+  {
+    "id": "f2a3b4c5-d6e7-8901-6789-012345678901",
+    "category": "Miscellaneous",
+    "name": "Modal Dialog",
+    "path": "components/miscellaneous/modal-dialog.html",
+    "is_full": false
+  },
+  {
+    "id": "a3b4c5d6-e7f8-9012-7890-123456789012",
+    "category": "Miscellaneous",
+    "name": "Pagination",
+    "path": "components/miscellaneous/pagination.html",
+    "is_full": false
+  },
+  {
+    "id": "b4c5d6e7-f8a9-0123-8901-234567890123",
+    "category": "Miscellaneous",
+    "name": "Empty State",
+    "path": "components/miscellaneous/empty-state.html",
+    "is_full": false
   }
 ]

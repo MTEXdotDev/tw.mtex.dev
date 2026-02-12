@@ -1,0 +1,51 @@
+<nav class="flex items-center justify-between" x-data="{ currentPage: 5 }">
+  <div class="flex items-center gap-2">
+    <p class="text-sm text-gray-600 dark:text-gray-400">
+      Showing <span class="font-medium text-gray-900 dark:text-white">41</span> to <span class="font-medium text-gray-900 dark:text-white">50</span> of <span class="font-medium text-gray-900 dark:text-white">97</span> results
+    </p>
+  </div>
+  
+  <div class="flex items-center gap-1">
+    <!-- First Page -->
+    <button class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors" :disabled="currentPage === 1">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 19l-7-7 7-7m8 14l-7-7 7-7"></path>
+      </svg>
+    </button>
+    
+    <!-- Previous -->
+    <button class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors" :disabled="currentPage === 1">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+      </svg>
+    </button>
+    
+    <!-- Page Numbers -->
+    <div class="hidden sm:flex items-center gap-1">
+      <button class="w-9 h-9 rounded-lg text-sm font-medium text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">3</button>
+      <button class="w-9 h-9 rounded-lg text-sm font-medium text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">4</button>
+      <button class="w-9 h-9 rounded-lg text-sm font-medium text-white bg-primary-600 shadow-sm" x-text="currentPage"></button>
+      <button class="w-9 h-9 rounded-lg text-sm font-medium text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">6</button>
+      <button class="w-9 h-9 rounded-lg text-sm font-medium text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">7</button>
+    </div>
+    
+    <!-- Mobile Current -->
+    <span class="sm:hidden px-3 py-2 text-sm font-medium text-gray-900 dark:text-white">
+      Page <span x-text="currentPage"></span>
+    </span>
+    
+    <!-- Next -->
+    <button class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+      </svg>
+    </button>
+    
+    <!-- Last Page -->
+    <button class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path>
+      </svg>
+    </button>
+  </div>
+</nav>
