@@ -122,7 +122,7 @@ $isFullWidth = isset($activeComponent['is_full']) && $activeComponent['is_full']
                     <div class="space-y-1">
                         <?php foreach ($items as $item): ?>
                         <?php $isActive = ($activeId === $item['id']); ?>
-                        <a href="?id=<?= $item['id'] ?>" class="group flex items-center justify-between px-3 py-2 text-sm rounded-md transition-all <?= $isActive ? 'bg-primary-600 text-white shadow-md shadow-primary-200 dark:shadow-none' : 'text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-800' ?>">
+                        <a href="?id=<?= $item['id'] ?>" id="<?= $isActive ? 'active-component-link' : '' ?>" class="group flex items-center justify-between px-3 py-2 text-sm rounded-md transition-all <?= $isActive ? 'bg-primary-600 text-white shadow-md shadow-primary-200 dark:shadow-none' : 'text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-800' ?>">
                             <?= htmlspecialchars($item['name']) ?>
                             <?php if($isActive): ?>
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>

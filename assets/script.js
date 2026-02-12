@@ -1,12 +1,12 @@
 function formatHTML(html) {
   if (!html) return '';
-  
+
   let formatted = html.replace(/>\s+</g, '><').trim();
-  
+
   formatted = formatted
-    .replace(/(<(?!\/)(?!span|strong|b|i|em|small)[^>]+>)/g, '\n$1') 
-    .replace(/(<\/(?!span|strong|b|i|em|small)[^>]+>)/g, '\n$1') 
-    .replace(/\n\n/g, '\n'); 
+    .replace(/(<(?!\/)(?!span|strong|b|i|em|small)[^>]+>)/g, '\n$1')
+    .replace(/(<\/(?!span|strong|b|i|em|small)[^>]+>)/g, '\n$1')
+    .replace(/\n\n/g, '\n');
 
   const lines = formatted.split('\n');
   let indentLevel = 0;
@@ -19,7 +19,7 @@ function formatHTML(html) {
 
     const isClosing = line.match(/^<\//);
     const isSelfClosing = line.match(/\/>$/) || line.match(/^<(img|input|br|hr|meta|link)/);
-    
+
     if (isClosing && indentLevel > 0) {
       indentLevel--;
     }
@@ -68,7 +68,7 @@ function updateThemeUI(mode) {
   if (!slider) return;
 
   const positions = {
-    'system': '0px', 
+    'system': '0px',
     'light': '28px',
     'dark': '56px'
   };
@@ -78,9 +78,9 @@ function updateThemeUI(mode) {
 
 document.addEventListener('DOMContentLoaded', () => {
   initTheme();
-  
+
   const codeContainer = document.getElementById('code-container');
-  
+
   if (window.COMPONENT_DATA && codeContainer) {
     codeContainer.textContent = formatHTML(window.COMPONENT_DATA);
   }
@@ -89,5 +89,12 @@ document.addEventListener('DOMContentLoaded', () => {
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
   if (localStorage.getItem('theme') === 'system') {
     setTheme('system', false);
+  }
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  const activeLink = document.getElementById('active-component-link');
+  if (activeLink) {
+    activeLink.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
 });

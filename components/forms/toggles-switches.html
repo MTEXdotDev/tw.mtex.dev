@@ -1,0 +1,55 @@
+<div class="w-full max-w-md space-y-4">
+  <!-- Basic Toggle -->
+  <div class="flex items-center justify-between py-2">
+    <div>
+      <p class="text-sm font-medium text-gray-900 dark:text-white">Notifications</p>
+      <p class="text-xs text-gray-500 dark:text-gray-400">Receive email notifications</p>
+    </div>
+    <button type="button" class="relative w-11 h-6 bg-primary-600 rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800" x-data="{ on: true }" :class="on ? 'bg-primary-600' : 'bg-gray-200 dark:bg-gray-700'" @click="on = !on">
+      <span class="absolute top-0.5 left-0.5 w-5 h-5 bg-white rounded-full shadow transform transition-transform" :class="on ? 'translate-x-5' : 'translate-x-0'"></span>
+    </button>
+  </div>
+
+  <!-- Toggle with Status -->
+  <div class="flex items-center justify-between py-2">
+    <div>
+      <p class="text-sm font-medium text-gray-900 dark:text-white">Auto-save</p>
+      <p class="text-xs text-gray-500 dark:text-gray-400">Save changes automatically</p>
+    </div>
+    <div class="flex items-center gap-2" x-data="{ on: false }">
+      <span class="text-xs font-medium" :class="on ? 'text-primary-600 dark:text-primary-400' : 'text-gray-400'" x-text="on ? 'On' : 'Off'"></span>
+      <button type="button" class="relative w-11 h-6 rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800" :class="on ? 'bg-primary-600' : 'bg-gray-200 dark:bg-gray-700'" @click="on = !on">
+        <span class="absolute top-0.5 left-0.5 w-5 h-5 bg-white rounded-full shadow transform transition-transform" :class="on ? 'translate-x-5' : 'translate-x-0'"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Large Toggle -->
+  <div class="flex items-center justify-between py-2">
+    <div>
+      <p class="text-sm font-medium text-gray-900 dark:text-white">Dark Mode</p>
+      <p class="text-xs text-gray-500 dark:text-gray-400">Enable dark appearance</p>
+    </div>
+    <button type="button" class="relative w-14 h-7 bg-primary-600 rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800" x-data="{ on: true }" :class="on ? 'bg-primary-600' : 'bg-gray-200 dark:bg-gray-700'" @click="on = !on">
+      <span class="absolute top-0.5 left-0.5 w-6 h-6 bg-white rounded-full shadow transform transition-transform flex items-center justify-center" :class="on ? 'translate-x-7' : 'translate-x-0'">
+        <svg x-show="on" class="w-3.5 h-3.5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+        </svg>
+        <svg x-show="!on" class="w-3.5 h-3.5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+        </svg>
+      </span>
+    </button>
+  </div>
+
+  <!-- Disabled Toggle -->
+  <div class="flex items-center justify-between py-2 opacity-50">
+    <div>
+      <p class="text-sm font-medium text-gray-900 dark:text-white">Beta Features</p>
+      <p class="text-xs text-gray-500 dark:text-gray-400">Access experimental features</p>
+    </div>
+    <button type="button" disabled class="relative w-11 h-6 bg-gray-200 dark:bg-gray-700 rounded-full cursor-not-allowed">
+      <span class="absolute top-0.5 left-0.5 w-5 h-5 bg-white rounded-full shadow"></span>
+    </button>
+  </div>
+</div>

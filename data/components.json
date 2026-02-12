@@ -143,7 +143,7 @@
     "is_full": false
   },
 
-  
+
   {
     "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
     "category": "Dropdowns",
@@ -240,6 +240,71 @@
     "category": "Miscellaneous",
     "name": "Empty State",
     "path": "components/miscellaneous/empty-state.html",
+    "is_full": false
+  },
+
+
+  {
+    "id": "c1d2e3f4-a5b6-7890-cdef-123456789012",
+    "category": "Cards",
+    "name": "Profile Card",
+    "path": "components/cards/profile-card.html",
+    "is_full": false
+  },
+  {
+    "id": "d2e3f4a5-b6c7-8901-def1-234567890123",
+    "category": "Cards",
+    "name": "Pricing Card",
+    "path": "components/cards/pricing-card.html",
+    "is_full": false
+  },
+  {
+    "id": "e3f4a5b6-c7d8-9012-ef12-345678901234",
+    "category": "Cards",
+    "name": "Product Card",
+    "path": "components/cards/product-card.html",
+    "is_full": false
+  },
+  {
+    "id": "f4a5b6c7-d8e9-0123-f123-456789012345",
+    "category": "Buttons",
+    "name": "Button Group",
+    "path": "components/buttons/button-group.html",
+    "is_full": false
+  },
+  {
+    "id": "a5b6c7d8-e9f0-1234-1234-567890123456",
+    "category": "Buttons",
+    "name": "Icon Buttons",
+    "path": "components/buttons/icon-buttons.html",
+    "is_full": false
+  },
+  {
+    "id": "b6c7d8e9-f0a1-2345-2345-678901234567",
+    "category": "Forms",
+    "name": "Input Fields",
+    "path": "components/forms/input-fields.html",
+    "is_full": false
+  },
+  {
+    "id": "c7d8e9f0-a1b2-3456-3456-789012345678",
+    "category": "Forms",
+    "name": "Toggles & Switches",
+    "path": "components/forms/toggles-switches.html",
+    "is_full": false
+  },
+  {
+    "id": "d8e9f0a1-b2c3-4567-4567-890123456789",
+    "category": "Avatars",
+    "name": "Avatar Group",
+    "path": "components/avatars/avatar-group.html",
+    "is_full": false
+  },
+  {
+    "id": "e9f0a1b2-c3d4-5678-5678-901234567890",
+    "category": "Badges",
+    "name": "Status Badges",
+    "path": "components/badges/status-badges.html",
     "is_full": false
   }
 ]
